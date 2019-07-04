@@ -2,15 +2,13 @@ package com.chuckerteam.chucker.sample
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.chuckerteam.chucker.api.Chucker
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.chuckerteam.chucker.api.RetentionManager
-import kotlinx.android.synthetic.main.activity_main.do_http
-import kotlinx.android.synthetic.main.activity_main.launch_chucker_directly
-import kotlinx.android.synthetic.main.activity_main.trigger_exception
+import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Call
